@@ -297,9 +297,9 @@ FMDBLogger *sqliteLogger;
         case DISTANCE_FILTER_PROVIDER:
             locationProvider = [[MAURDistanceFilterLocationProvider alloc] init];
             break;
-        case ACTIVITY_PROVIDER:
-            locationProvider = [[MAURActivityLocationProvider alloc] init];
-            break;
+//        case ACTIVITY_PROVIDER:
+//            locationProvider = [[MAURActivityLocationProvider alloc] init];
+//            break;
         case RAW_PROVIDER:
             locationProvider = [[MAURRawLocationProvider alloc] init];
             break;
